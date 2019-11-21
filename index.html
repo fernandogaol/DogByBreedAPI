@@ -1,0 +1,27 @@
+<!-- This app doesn't follow a11y best practices, and the JS file is incomplete. Complete the getDataFromApi and displaySearchData functions. When you're done, this app should allow a user to search for a specific dog breed, and display a random image of that dog breed. You should make requests to this API: https://dog.ceo/dog-api/ . Also make any necessary adjustments to make this app accessible. -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Dog API</title>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"
+    ></script>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Find a dog image by breed:</h2>
+      <form action="#" class="js-search-form">
+        <input type="text" class="js-search-term" value="hound" />
+        <button class="submit-btn btn" type="submit">Search</button>
+      </form>
+      <section class="js-search-results hidden"></section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
